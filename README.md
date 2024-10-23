@@ -10,6 +10,9 @@ By inputting ingredients like tomatoes and eggs, the application generates recip
 ### Why this project?
 This project is part of my transition from digital makreitng into data analysis/ business analysis. It showcases my ability to design and manage data systems, build user-centric web applications in the retail domain and apply technology to solve practical problems. 
 
+![gif](what_to_cook_demo.gif)
+
+
 ## Features
 - **User Input**: Accepts a list of grocery items from user
 - **Recipe Recommendations**: Suggests recipes based on grocery items 
