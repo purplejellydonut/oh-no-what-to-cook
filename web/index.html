@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- For icons -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="collage-background">
+        <img src="asset/best-scrambled-eggs-recipe-0815.jpg" alt="Scrambled Eggs">
+        <img src="asset/sheet-pan-chicken-parmesan-654524d0c2ee8.avif" alt="Chicken Parmesan">
+        <img src="asset/Simple-Green-Salad-with-Vinaigrette-Square-FS-3241.webp" alt="Green Salad">
+        <img src="asset/Southwest-skillet-chicken-and-rice-square-1200.jpg" alt="Chicken and Rice">
+        <!-- Add more images as needed to fill the background -->
+    </div>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+        <form id="grocery-form">
+            <input type="text" id="item-name" placeholder="Enter grocery item name" required>
+            <input type="number" id="item-qty" placeholder="Enter quantity (optional)">
+            <button id="add-grocery-item">Add Item</button>
+        </form>
+        
+        <ul id="grocery-list" class="grocery-list"></ul>
+        
+        <button id="find-recipes">Find Recipes</button>
+        
+        <div id="recipe-results"></div> <!-- Recipe results container -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
